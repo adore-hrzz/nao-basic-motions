@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.1.0" uuid="adorebasicmotions-23e157">
+ <names>
+  <name lang="en_US">Adore basic motions</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">Basic Nao motions in the context of the ADORE project.</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="Bravo">
+   <nature>solitary</nature>
+   <names>
+    <name lang="en_US">Bravo!</name>
+   </names>
+   <descriptions>
+    <description lang="en_US">Compliment child for correctly performing an action.</description>
+   </descriptions>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement minVersion="2.1.2.17"/>
+  <robotRequirement model="NAO_H25"/>
+ </requirements>
+</package>
