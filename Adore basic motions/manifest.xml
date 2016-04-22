@@ -23,6 +23,10 @@
    </descriptions>
    <permissions/>
   </behaviorContent>
+  <behaviorContent path="Mexican wave">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
  </contents>
  <requirements>
   <naoqiRequirement minVersion="2.1.2.17"/>
