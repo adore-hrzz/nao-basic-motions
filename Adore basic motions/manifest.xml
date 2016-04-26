@@ -27,6 +27,10 @@
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>
+  <behaviorContent path="Pa-pa">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
  </contents>
  <requirements>
   <naoqiRequirement minVersion="2.1.2.17"/>

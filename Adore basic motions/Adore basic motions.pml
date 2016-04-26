@@ -4,6 +4,7 @@
     <BehaviorDescriptions>
         <BehaviorDescription name="behavior" src="Bravo" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="Mexican wave" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="Pa-pa" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
