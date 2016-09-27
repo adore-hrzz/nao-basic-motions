@@ -27,7 +27,7 @@
                             <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
                             <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
                             <Timeline enable="1" fps="25" start_frame="1" end_frame="-1" size="225">
-                                <BehaviorLayer name="Wave and clap (motion)">
+                                <BehaviorLayer name="Wave">
                                     <BehaviorKeyframe name="keyframe1" index="1">
                                         <Diagram />
                                     </BehaviorKeyframe>

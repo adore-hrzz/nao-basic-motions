@@ -5,20 +5,17 @@
         <BehaviorDescription name="behavior" src="Bravo" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="Mexican wave" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="Pa-pa" xar="behavior.xar" />
-        <BehaviorDescription name="behavior" src="A sada ti" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="Dodji (right)" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="68698__mikaelfernstrom__handclap" src="Bravo/68698__mikaelfernstrom__handclap.wav" />
+        <File name="bok" src="sounds/bok.wav" />
+        <File name="bravo" src="sounds/bravo.wav" />
+        <File name="dodji" src="sounds/dodji.wav" />
+        <File name="download_sounds" src="sounds/download_sounds.sh" />
+        <File name="jakodobro" src="sounds/jakodobro.wav" />
+        <File name="vidi" src="sounds/vidi.wav" />
     </Resources>
     <Topics />
-    <IgnoredPaths>
-        <Path src="sounds/jakodobro.wav" />
-        <Path src="sounds" />
-        <Path src="sounds/download_sounds.sh" />
-        <Path src="sounds/vidi.wav" />
-        <Path src="sounds/dodji.wav" />
-        <Path src="sounds/bok.wav" />
-        <Path src="sounds/bravo.wav" />
-    </IgnoredPaths>
+    <IgnoredPaths />
 </Package>
