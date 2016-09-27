@@ -12,5 +12,13 @@
         <File name="68698__mikaelfernstrom__handclap" src="Bravo/68698__mikaelfernstrom__handclap.wav" />
     </Resources>
     <Topics />
-    <IgnoredPaths />
+    <IgnoredPaths>
+        <Path src="sounds/jakodobro.wav" />
+        <Path src="sounds" />
+        <Path src="sounds/download_sounds.sh" />
+        <Path src="sounds/vidi.wav" />
+        <Path src="sounds/dodji.wav" />
+        <Path src="sounds/bok.wav" />
+        <Path src="sounds/bravo.wav" />
+    </IgnoredPaths>
 </Package>
