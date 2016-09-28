@@ -35,7 +35,7 @@
                                 <BehaviorLayer name="Blink leds">
                                     <BehaviorKeyframe name="keyframe1" index="1">
                                         <Diagram>
-                                            <Box name="Blink B-G" id="4" localization="8" tooltip="This box makes the robot blink once." x="180" y="65">
+                                            <Box name="Blink B-G" id="1" localization="8" tooltip="This box makes the robot blink once." x="153" y="71">
                                                 <bitmap>media/images/box/interaction/LED.png</bitmap>
                                                 <script language="4">
                                                     <content>
@@ -44,21 +44,22 @@
 class MyClass(GeneratedClass):
     def __init__(self):
         GeneratedClass.__init__(self, False)
-        self.rDuration = 1
+        self.tswitch = 0.2
+        self.thold = 0.5
 
     def onLoad(self):
         self.leds = ALProxy("ALLeds")
 
     def onUnload(self):
         # Return LEDs to "normal" state
-        self.leds.post.fadeRGB( "FaceLeds", 1,1,1, self.rDuration )
+        self.leds.post.fadeRGB( "FaceLeds", 1,1,1, self.tswitch )
         pass
 
     def onInput_onStart(self):
-        rDuration = 1
-        self.leds.post.fadeRGB( "FaceLeds", 0,1,0, self.rDuration )
-        time.sleep( 1 )
-        self.leds.fadeRGB( "FaceLeds", 0,0,1, self.rDuration )
+        self.leds.post.fadeRGB( "FaceLeds", 0,1,0, self.tswitch )
+        time.sleep(self.thold)
+        self.leds.fadeRGB( "FaceLeds", 0,0,1, self.tswitch )
+        time.sleep(self.thold)
         self.onDone()]]>
 </content>
                                                 </script>
@@ -66,8 +67,8 @@ class MyClass(GeneratedClass):
                                                 <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
                                                 <Output name="onDone" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="3" />
                                             </Box>
-                                            <Link inputowner="4" indexofinput="2" outputowner="4" indexofoutput="3" />
-                                            <Link inputowner="4" indexofinput="2" outputowner="0" indexofoutput="1" />
+                                            <Link inputowner="1" indexofinput="2" outputowner="1" indexofoutput="3" />
+                                            <Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="1" />
                                         </Diagram>
                                     </BehaviorKeyframe>
                                 </BehaviorLayer>
