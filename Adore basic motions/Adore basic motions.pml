@@ -18,12 +18,5 @@
         <File name="icon" src="icon.png" />
     </Resources>
     <Topics />
-    <IgnoredPaths>
-        <Path src="sounds/cleaned/bok.wav" />
-        <Path src="sounds/cleaned/jakodobro.wav" />
-        <Path src="sounds/cleaned" />
-        <Path src="sounds/cleaned/dodji.wav" />
-        <Path src="sounds/cleaned/bravo.wav" />
-        <Path src="sounds/cleaned/vidi.wav" />
-    </IgnoredPaths>
+    <IgnoredPaths />
 </Package>
