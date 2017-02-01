@@ -15,7 +15,15 @@
         <File name="download_sounds" src="sounds/download_sounds.sh" />
         <File name="jakodobro" src="sounds/jakodobro.wav" />
         <File name="vidi" src="sounds/vidi.wav" />
+        <File name="icon" src="icon.png" />
     </Resources>
     <Topics />
-    <IgnoredPaths />
+    <IgnoredPaths>
+        <Path src="sounds/cleaned/bok.wav" />
+        <Path src="sounds/cleaned/jakodobro.wav" />
+        <Path src="sounds/cleaned" />
+        <Path src="sounds/cleaned/dodji.wav" />
+        <Path src="sounds/cleaned/bravo.wav" />
+        <Path src="sounds/cleaned/vidi.wav" />
+    </IgnoredPaths>
 </Package>

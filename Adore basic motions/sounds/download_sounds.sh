@@ -3,18 +3,18 @@
 echo "Downloading sounds..."
 
 # Pozrav "Bok", tts Marica v4.2
-wget --no-check-certificate -O bok.wav "http://larics.rasip.fer.hr/laricscloud/index.php/s/bKCevCzwyqNRo87/download"
+wget -O bok.wav "https://drive.google.com/uc?export=download&id=0ByIZc3t3wyJobDZfanFwMno2VmM"
 
 # Pozdrav "Bravo", tts Marics v4.2
-wget --no-check-certificate -O bravo.wav "http://larics.rasip.fer.hr/laricscloud/index.php/s/XL7u7FJybk9E0TC/download"
+wget -O bravo.wav "https://drive.google.com/uc?export=download&id=0ByIZc3t3wyJodDR6ZlVoZ3BpQW8"
 
-# Pozdrav "Bravo", tts Marics v4.2
-wget --no-check-certificate -O dodji.wav "http://larics.rasip.fer.hr/laricscloud/index.php/s/YBEL3LwFh6LYAfS/download"
+# Pozdrav "Dodji", tts Marics v4.2
+wget -O dodji.wav "https://drive.google.com/uc?export=download&id=0ByIZc3t3wyJoUG93UGdYY0lPTjA"
 
-# Pozdrav "Bravo", tts Marics v4.2
-wget --no-check-certificate -O jakodobro.wav "http://larics.rasip.fer.hr/laricscloud/index.php/s/DoYFHrfEiIrq6LC/download"
+# Pozdrav "Jako dobro", tts Marics v4.2
+wget -O jakodobro.wav "https://drive.google.com/uc?export=download&id=0ByIZc3t3wyJoZjhKd3pWdkJGdGM"
 
-# Pozdrav "Bravo", tts Marics v4.2
-wget --no-check-certificate -O vidi.wav "http://larics.rasip.fer.hr/laricscloud/index.php/s/mB24a8VFmIdWgiM/download"
+# Pozdrav "Vidi", tts Marics v4.2
+wget -O vidi.wav "https://drive.google.com/uc?export=download&id=0ByIZc3t3wyJoam1hbHlUMFdMODQ"
 
 echo "Done!"
