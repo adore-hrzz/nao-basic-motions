@@ -12,9 +12,11 @@ wget -O bravo.wav "https://drive.google.com/uc?export=download&id=0ByIZc3t3wyJod
 wget -O dodji.wav "https://drive.google.com/uc?export=download&id=0ByIZc3t3wyJoUG93UGdYY0lPTjA"
 
 # Pozdrav "Jako dobro", tts Marics v4.2
-wget -O jakodobro.wav "https://drive.google.com/uc?export=download&id=0ByIZc3t3wyJoZjhKd3pWdkJGdGM"
+wget -O jako_dobro.wav "https://drive.google.com/uc?export=download&id=0ByIZc3t3wyJoZjhKd3pWdkJGdGM"
 
 # Pozdrav "Vidi", tts Marics v4.2
 wget -O vidi.wav "https://drive.google.com/uc?export=download&id=0ByIZc3t3wyJoam1hbHlUMFdMODQ"
+
+wget -O pa-pa.wav "https://drive.google.com/uc?export=download&id=0ByIZc3t3wyJoWWM4XzMtOENuOUU"
 
 echo "Done!"

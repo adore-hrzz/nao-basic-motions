@@ -9,13 +9,14 @@
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
+        <File name="icon" src="icon.png" />
         <File name="bok" src="sounds/bok.wav" />
         <File name="bravo" src="sounds/bravo.wav" />
         <File name="dodji" src="sounds/dodji.wav" />
         <File name="download_sounds" src="sounds/download_sounds.sh" />
-        <File name="jakodobro" src="sounds/jakodobro.wav" />
+        <File name="jako_dobro" src="sounds/jako_dobro.wav" />
+        <File name="pa-pa" src="sounds/pa-pa.wav" />
         <File name="vidi" src="sounds/vidi.wav" />
-        <File name="icon" src="icon.png" />
     </Resources>
     <Topics />
     <IgnoredPaths />
